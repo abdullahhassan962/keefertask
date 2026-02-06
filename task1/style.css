@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* Common box style */
+.box {
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Header */
+.header {
+    height: 60px;
+}
+
+/* Navigation */
+.nav {
+    height: 50px;
+}
+
+/* Middle section */
+.middle {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Sidebars */
+.sidebar {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main content */
+.main {
+    width: 60%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    height: 50px;
+}

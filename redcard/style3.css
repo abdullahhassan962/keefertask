@@ -1,0 +1,178 @@
+* {
+        /* border: 2px solid black; */
+        margin: 0px;
+        padding: 0px;
+      }
+      @font-face {
+        font-family: "MyFont";
+        src: url("./proxima.ttf");
+        font-weight: bold;
+        font-style: normal;
+      }
+       @font-face {
+        font-family: "MyFoot";
+        src: url("./proximaregular.ttf");
+  
+        font-style: normal;
+      }
+      .logo {
+        width: 215px;
+        height: 215px;
+        margin-left: 10px;
+      }
+      .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      header {
+        background-color: #8e2c2c;
+        padding-top: 1px;
+        padding-bottom: 1px;
+      }
+      header h1 {
+        font-size: 110px;
+        font-family: "MyFont", Helvetica, sans-serif;
+        
+        
+        color: #ffffff;
+        margin-top: 28px;
+        padding-bottom: 0px;
+        margin-bottom: -23px;
+      
+        margin-left: 6.5px;
+
+      }
+      .first {
+        margin-left: 126px;
+        margin-top: 62px;
+      }
+
+      header h2 {
+        font-family: "MyFont", Helvetica, sans-serif;
+        font-size: 55px;
+        margin-bottom :52px;        
+        margin-left: 8px;
+      }
+      header p {
+        font-family:"MyFoot" , Helvetica, sans-serif;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+       margin-left: 8px;
+
+        color: #ffffff;
+        line-height: 38px;
+      }
+      .ppp {
+        width: 52px;
+        height: 52px;
+        
+      }
+      #triangle {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+       #triang {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .long {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin-left: 140px;
+        margin-top: 116px;
+      }
+
+      .long h1 {
+        font-family: "MyFont", Helvetica, sans-serif;
+        font-size: 84px;
+        
+    
+      }
+      .repeat {
+        width: 126px;
+        height: 126px;
+        text-align: center;
+        font-family: Arial black;
+        font-size: 10px;
+   }
+      .lorem{
+        text-align: center;
+        font-family: 'MyFoot';
+        font-size: 22px;
+        width: 252px;
+      }
+      .masala{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 33px;
+        letter-spacing: 1.5px;
+        color: #8e2c2c;
+
+      }
+      .a{
+        margin-bottom: 150px;
+        margin-left: -52px;
+      }
+      .number5 {
+        display: flex;
+      
+        align-items: center;
+        margin-top: 46px;
+        margin-left: 146px;
+        margin-right: 132px;
+        
+        gap: 79px;
+      } 
+
+      footer {
+        background-color: #8e2c2c;
+     
+      
+      }
+      .Last{
+        font-family: "MyFont", Helvetica, sans-serif;
+        font-size: 27px;
+        color: #ffffff;
+        margin-top: 36px;
+        
+        margin-left: 132px;
+        padding-top: 118px;
+        
+      }
+      .black{
+        font-family: "MyFoot", Helvetica, sans-serif;
+        color:black
+      }
+      #jony
+      {
+  filter: brightness(0) invert(1);
+  width:100%;
+  height:100%;
+  object-fit: contain;
+
+}
+      .cut{
+        width: 170px;
+        height: 170px;
+        margin-top: 13px;
+        margin-left: 967px;
+        margin-bottom: -1px;
+        
+      }
+    
+       .cu{
+        width: 170px;
+        height: 170px;
+        margin-top: 13px;
+        margin-left: 1093px;
+        margin-bottom: -1px;
+        
+      }

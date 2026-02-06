@@ -1,0 +1,170 @@
+* {
+    
+        margin: 0px;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      /*header css */
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      header {
+      
+        width: 100%;
+        height: 25.8%;
+        
+        
+      }
+      .firstimage {
+         margin-top: 0.78%;
+         height: 100%;
+        width: 8.55%;
+        margin-left: 1.7%;
+        margin-bottom: -0.2%;
+      }
+      .firstimage img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    
+      }
+      /*   body css      */
+      @font-face {
+        font-family: "MyFont";
+        src: url("proxima.ttf");
+        
+        font-style: normal;
+      }
+      .left {
+        width: 45%;
+        margin-left: 7.8%;
+        margin-top: 22%;
+      }
+      .left p {
+        margin: 2%;
+      }
+      main {
+        display: flex;
+        min-height: 100vh;
+        background-color: #8e2c2c;
+        border-left: 25px solid white;
+        gap: 174px;
+      }
+      .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100%;
+      }
+      form {
+        margin-top: 13%;margin-bottom: 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        width: 80%;
+      }
+
+      .input {
+        width: 92%;
+        height: 20px;
+        padding: 27px 20px;
+        background-color: #8e2c2c;
+        border: 2px solid white;
+        color: white;
+      }
+      .input::placeholder {
+        color: white;
+        opacity: 1;
+      }
+      .inp {
+        width: 92%;
+        height: 15%;
+        padding: 0px 10px 50px 10px;
+        background-color: #8e2c2c;
+        border: 2px solid white;
+      }
+      .inp::placeholder {
+        color: white;
+        opacity: 1;
+      }
+      .text{ 
+        align-items: baseline;
+        gap:50px;
+      }
+      #fiif{
+          font-family: MyFont,sans-serif;
+            font-weight: bold;
+            font-size: 87px;
+            color: white;
+            margin-top: 2%;
+            margin-left: 2%;
+            margin-bottom: -2%;
+      }
+      #fijf{
+          font-family: MyFoot, sans-serif;
+            font-size: 17.5px;
+            color: black;
+            line-height: 28px;
+            margin-left: 2%;
+      }
+      #fikf{
+          font-family: MyFont, sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+            color: black;
+            margin-top: 3%;
+            margin-left: 2%;
+            margin-bottom: -2%;
+            
+      }
+      /*--------------test area css------------------*/
+      .checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkbox {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Myfoot';
+  color: white;
+}
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.checkbox input:checked ~ .checkmark {
+  background-color: white;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.checkmark::after {
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border: solid #8e2c2c;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
