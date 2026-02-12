@@ -1,0 +1,12 @@
+// fullname="abdullah"
+// console.log(fullname);
+// age=17;
+// console.log(age);
+// x=null;
+// y=undefined;
+// console.log(y)
+// isFollow=true
+// console.log("isFollow")
+// isFollow="false"
+// console.log(isFollow)
+let age=3;
